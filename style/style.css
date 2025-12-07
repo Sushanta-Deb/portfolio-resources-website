@@ -6,6 +6,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    background-image: url('../assets/images/developer.png'), url('../assets/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
 .nav-title{
     font-size: 45px;
     font-weight: 800;
@@ -43,5 +48,26 @@ nav{
     border-radius: 5px;
     border: none;
     color: white;
+}
+/* banner styles */
+.banner-greeting{
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px 0px 150px;
 }
 
